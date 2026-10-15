@@ -16,7 +16,7 @@ concurrency:
 jobs:
   release:
     if: github.repository == '<owner>/<repository>'
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
       issues: write
@@ -66,7 +66,7 @@ jobs:
     permissions:
       contents: read
     # Keep this cross-repository workflow pinned to a full commit SHA.
-    uses: tuna-os/.github/.github/workflows/reusable-release-verification.yml@6e3d5bd2ff5820124cff3c7624191b540a007ffa # feat/reusable-release-verification
+    uses: tuna-os/.github/.github/workflows/reusable-release-verification.yml@6e3d5bd2ff5820124cff3c7624191b540a007ffa # tuna-os/.github#171
     with:
       release-tag: ${{ needs.release.outputs.release-tag }}
       expected-commit: ${{ needs.release.outputs.expected-commit }}

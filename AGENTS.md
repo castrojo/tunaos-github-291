@@ -104,6 +104,9 @@ scaffolded repos, which never run this workflow — and it is the one the filter
 omits. See [#189](https://github.com/tuna-os/.github/issues/189) for the exact
 line to add.
 
+For the reusable workflows these checks operate on — what each input does, its
+defaults, and how a repo calls one — see [`docs/WORKFLOWS.md`](docs/WORKFLOWS.md).
+
 ## Workflow permissions check
 
 ```bash

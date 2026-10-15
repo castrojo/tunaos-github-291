@@ -108,6 +108,9 @@ We maintain forks where our builds need them - [PaperWM](https://github.com/tuna
 
 Every repository takes issues and pull requests, and much of the work lands upstream in freedesktop-sdk, GNOME OS, KDE and BuildStream. Start at the [documentation](https://tunaos.org/docs/intro), or at [support](https://tunaos.org/support) if you would rather back the projects TunaOS is built on.
 
+<!-- hive-contribute-plea: donated-compute appeal -->
+No time for code? Lend a hive your AI subscription or API tokens and your machine runs contributor tasks from our backlog: 🪸 [reef](https://reef.tunaos.org/contribute) (applications) · 🏫 [school](https://school.tunaos.org/contribute) (operating system).
+
 ---
 
 <div align="center">

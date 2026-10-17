@@ -51,7 +51,7 @@ Built in this org and published on the TunaOS Flatpak remote, so they install on
 
 | Project | What it is |
 |---|---|
-| [gtk-office-suite](https://github.com/tuna-os/gtk-office-suite) | Letters, Tables and Decks: a word processor, spreadsheet and presentation app in Rust and GTK 4. DOCX, ODT, XLSX, ODS and PPTX in, PDF out. Built on the [suite-common](https://github.com/tuna-os/suite-common) and [suite-common-rust](https://github.com/tuna-os/suite-common-rust) shared scaffolds |
+| [gtk-office-suite](https://github.com/tuna-os/gtk-office-suite) | Letters, Tables and Decks: a word processor, spreadsheet and presentation app in Rust and GTK 4. DOCX, ODT, XLSX, ODS and PPTX in, PDF out. |
 | [blueshell](https://github.com/tuna-os/blueshell) | A container-native terminal for GNOME on the Ghostty engine |
 | [mariner](https://github.com/tuna-os/mariner) | A GNOME Files alternative — typeahead, dual-pane, Quick Look, full-text search |
 | [Tavern](https://github.com/tuna-os/Tavern) | A GTK 4 front end for Homebrew on Linux |
@@ -98,10 +98,6 @@ The [TunaOS fork](https://github.com/tuna-os/hive),
 [gnome-hive-monitor](https://github.com/tuna-os/gnome-hive-monitor), and
 [ccleft](https://github.com/tuna-os/ccleft) provide the platform, Kubernetes
 operator, desktop monitor, and agent quota tools.
-
-## Archived
-
-Retired work stays read-only for reference. The old Ubuntu line ([ubuntu](https://github.com/tuna-os/ubuntu), [ubuntu-26.04-iso](https://github.com/tuna-os/ubuntu-26.04-iso)) and the Dakota line ([dakota](https://github.com/tuna-os/dakota), [dakota-iso](https://github.com/tuna-os/dakota-iso), [dakota-x13s](https://github.com/tuna-os/dakota-x13s)); the per-desktop ISO builders ([tromso-iso](https://github.com/tuna-os/tromso-iso), [xfce-linux-iso](https://github.com/tuna-os/xfce-linux-iso)) superseded by in-tree ISO builds; the earlier installer attempts ([bootc-builder](https://github.com/tuna-os/bootc-builder), [bootc-installer-tui](https://github.com/tuna-os/bootc-installer-tui), [bootc-isos](https://github.com/tuna-os/bootc-isos), [first-setup](https://github.com/tuna-os/first-setup)); the pre-Rust office apps ([letters](https://github.com/tuna-os/letters), [tables](https://github.com/tuna-os/tables), [decks](https://github.com/tuna-os/decks)) superseded by the office suite; plus [chunkah](https://github.com/tuna-os/chunkah) (OCI layer optimization), [bonito-x13s](https://github.com/tuna-os/bonito-x13s) (ThinkPad X13s ARM64, whose story is in the [FAQ](https://tunaos.org/docs/faq)), and retired build meta ([images](https://github.com/tuna-os/images), [packages](https://github.com/tuna-os/packages), [thinkpad-x13s-gnome-build-meta](https://github.com/tuna-os/thinkpad-x13s-gnome-build-meta), [demo-repository](https://github.com/tuna-os/demo-repository)).
 
 ## Documentation
 

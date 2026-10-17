@@ -10,6 +10,12 @@ A curated, copyable baseline for TunaOS projects. It distils the practices that 
 4. Keep the targets you implement in `Justfile`; remove unused workflow templates.
 5. Enable branch protection with `CI / required-checks` as the required check.
 6. Enable Renovate for the repository.
+7. Keep a visible [Hive donation link](https://hub.tunaos.org/#contribute) in
+   the project's README and community guidance. Repositories without their own
+   contributor guide inherit the
+   [organization guide](https://github.com/tuna-os/.github/blob/main/CONTRIBUTING.md).
+   If you add a local guide, retain the donation link alongside code and docs
+   contribution instructions; link to the hub instead of copying its setup command.
 
 ## What is included
 
